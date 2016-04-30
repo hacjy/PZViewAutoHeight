@@ -14,7 +14,7 @@ step 2:View中有两种写法
 
 step 3:在View初始化时，请指定`pzLastSubView`为当前View的最底部控件,和距离View底部的距离`pzBottomOffset`
 
-以上三步设置完就可以使用了
+以上三步设置完就可以使用了     
 原理:自动布局的View在数据填充之后，调用一下View的`layoutIfNeeded`就可以获取到各个控件的frame，以此来根据`pzLastSubView`和`pzBottomOffset`计算出View的高度
 
 
