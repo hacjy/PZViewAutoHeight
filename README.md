@@ -1,9 +1,8 @@
-# PZCellAutoHeight
+# PZViewAutoHeight
 基于自动布局的View自动高度计算
 
 # 使用方法超级简单
-step 1:UITableViewDelegate
-
+step 1:UITableViewDelegate   
 ```object-c
 - (CGFloat)tableView:(nonnull UITableView *)tableView heightForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
     return [Cell heightByData:CellData];
