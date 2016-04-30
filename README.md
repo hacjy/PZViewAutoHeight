@@ -10,5 +10,5 @@ step 1:UITableViewDelegate
 }
 ```
 step 2:Cell中有两种写法
-方式一:实现`- (void)setData:(id _Nullable)data;`方法，并在其中填充Cell数据
+方式一:实现`- (void)setData:(id _Nullable)data`方法，并在其中填充Cell数据
 方法二:如果你已经有了自定义的Cell数据填充方法，那么，你可以在Cell初始化的时候设置`pzSetDataSel`为你自定义的Cell数据填充方法
