@@ -21,7 +21,7 @@ step 3:在View初始化时，请指定`pzLastSubView`为当前View的最底部�
 
 Q:为什么要做成View的扩展，而不是UITableviewCell的扩展
 
-A:由于项目中需要给UITableview设置headerView，而headerView也是使用了自动布局，也想一行代码搞定高度计算，所以，就做成了View的扩展，以此更通用
+A:由于项目中需要给UITableview设置headerView，而headerView也是使用了自动布局，也想一行代码搞定高度计算，因此,为了更为方便就做成了View的扩展
 
 
 Q:网上已经有很多Cell自动高度计算的库了，为什么要重复造轮子
