@@ -1,5 +1,6 @@
 # PZViewAutoHeight
-基于自动布局的View自动高度计算
+基于自动布局的View自动高度计算    
+本demo是基于`Masonry`的自动布局,理论上支持任何一种自动布局库
 
 # 使用方法超级简单
 step 1:UITableViewDelegate   
