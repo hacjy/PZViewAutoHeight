@@ -9,8 +9,8 @@ step 1:UITableViewDelegate
     return [Cell heightByData:CellData];
 }
 ```
-step 2:View中有两种写法
-方式一:实现`- (void)setData:(id _Nullable)data`方法，并在其中填充View数据
+step 2:View中有两种写法    
+方式一:实现`- (void)setData:(id _Nullable)data`方法，并在其中填充View数据    
 方法二:如果你已经有了自定义的View数据填充方法，那么，你可以在View初始化的时候设置`pzSetDataSel`为你自定义的View数据填充方法
 
 step 3:在View初始化时，请指定`pzLastSubView`为当前View的最底部控件,和距离View底部的距离`pzBottomOffset`
