@@ -31,5 +31,8 @@ A:1).我看了别人写的,大部分写的都很复杂,代码量少则三五百�
 感谢HYBMasonryAutoCellHeight的作者给了我灵感      
 感谢所有使用本开源库的开发者，感谢你们的使用和反馈。
 
+# pod支持   
+`pod 'PZViewAutoHeight'`
+
 # 联系我
 邮箱:goo.gle@foxmail.com
