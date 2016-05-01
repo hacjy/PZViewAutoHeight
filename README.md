@@ -27,12 +27,12 @@ Q:网上已经有很多Cell自动高度计算的库了，为什么要重复造�
 A:1).我看了别人写的,大部分写的都很复杂,代码量少则三五百行,多则几千行,极为不方便阅读,所以我写了这个,只有200行左右,其中核心代码也就20行左右      
   2).很多都是通过indePath去缓存Cell高度,而我是通过数据+cell去缓存
 
+# pod支持   
+`pod 'PZViewAutoHeight'`
+
 # 致谢
 感谢HYBMasonryAutoCellHeight的作者给了我灵感      
 感谢所有使用本开源库的开发者，感谢你们的使用和反馈。
-
-# pod支持   
-`pod 'PZViewAutoHeight'`
 
 # 联系我
 邮箱:goo.gle@foxmail.com
