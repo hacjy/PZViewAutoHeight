@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4AA9E8FC1CD5226B00F1D183 /* UIView+PZAutoHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9E8FB1CD5226B00F1D183 /* UIView+PZAutoHeight.m */; };
+		4A6505601CD596D0003C198C /* UIView+PZAutoHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A65055F1CD596D0003C198C /* UIView+PZAutoHeight.m */; };
 		690C27141B957C9F004CA276 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 690C27131B957C9F004CA276 /* main.m */; };
 		690C27171B957C9F004CA276 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 690C27161B957C9F004CA276 /* AppDelegate.m */; };
 		690C271A1B957C9F004CA276 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 690C27191B957C9F004CA276 /* ViewController.m */; };
@@ -31,8 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4AA9E8FA1CD5226B00F1D183 /* UIView+PZAutoHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PZAutoHeight.h"; sourceTree = "<group>"; };
-		4AA9E8FB1CD5226B00F1D183 /* UIView+PZAutoHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PZAutoHeight.m"; sourceTree = "<group>"; };
+		4A65055E1CD596D0003C198C /* UIView+PZAutoHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PZAutoHeight.h"; sourceTree = "<group>"; };
+		4A65055F1CD596D0003C198C /* UIView+PZAutoHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PZAutoHeight.m"; sourceTree = "<group>"; };
 		671107460757622448C7F025 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		690C270F1B957C9F004CA276 /* CellAutoHeightDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CellAutoHeightDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		690C27131B957C9F004CA276 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -83,19 +83,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		4AA9E8F91CD5226B00F1D183 /* PZCellAutoHeight */ = {
+		4A65055D1CD596D0003C198C /* PZViewAutoHeight */ = {
 			isa = PBXGroup;
 			children = (
-				4AA9E8FA1CD5226B00F1D183 /* UIView+PZAutoHeight.h */,
-				4AA9E8FB1CD5226B00F1D183 /* UIView+PZAutoHeight.m */,
+				4A65055E1CD596D0003C198C /* UIView+PZAutoHeight.h */,
+				4A65055F1CD596D0003C198C /* UIView+PZAutoHeight.m */,
 			);
-			path = PZCellAutoHeight;
+			path = PZViewAutoHeight;
 			sourceTree = "<group>";
 		};
 		690C27061B957C9F004CA276 = {
 			isa = PBXGroup;
 			children = (
-				4AA9E8F91CD5226B00F1D183 /* PZCellAutoHeight */,
+				4A65055D1CD596D0003C198C /* PZViewAutoHeight */,
 				690C27111B957C9F004CA276 /* CellAutoHeightDemo */,
 				690C272B1B957CA0004CA276 /* CellAutoHeightDemoTests */,
 				690C27101B957C9F004CA276 /* Products */,
@@ -295,7 +295,7 @@
 			files = (
 				690C271A1B957C9F004CA276 /* ViewController.m in Sources */,
 				690C27171B957C9F004CA276 /* AppDelegate.m in Sources */,
-				4AA9E8FC1CD5226B00F1D183 /* UIView+PZAutoHeight.m in Sources */,
+				4A6505601CD596D0003C198C /* UIView+PZAutoHeight.m in Sources */,
 				690C27141B957C9F004CA276 /* main.m in Sources */,
 				690C27451B958F30004CA276 /* HYBNewsModel.m in Sources */,
 				690C27421B958F1A004CA276 /* HYBNewsCell.m in Sources */,
