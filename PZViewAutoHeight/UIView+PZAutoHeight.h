@@ -1,9 +1,9 @@
 //
 //  UITableViewCell+PZAutoHeight.h
-//  Equery
+//
 //
 //  Created by phil zhang on 16/4/8.
-//  Copyright © 2016年 benning. All rights reserved.
+//  Copyright © 2016年 iphil. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
