@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PZViewAutoHeight"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "基于autoLayout的自动计算cell的行高的扩展库"
 
 
